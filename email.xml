@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+  <test verbose="2" name="test" allow-return-values="true">
+  
+   <classes>
+   	<class name="com.gits.TestGits.AppTest"></class> <!-- 指向某个类 -->
+   </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
